@@ -57,6 +57,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-lighter;
 }
 
+.bg-blue-base {
+    background-color: #02558B;
+}
+
 .bg-darkest-gray {
     background-color: @gray-darker;
 }
@@ -84,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-darker;
     border-color: transparent;
     .navbar-brand {
-        color: @theme-primary;
+        color: #fff;
         .script-font;
         &:hover,
         &:focus,
@@ -137,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(min-width:768px) {
     .navbar-custom {
         background-color: transparent;
+//        background-color: #02558B;
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
@@ -170,8 +175,8 @@ header {
 //    background-image: url('../img/header-bg.jpg');
 //    background-repeat: no-repeat;
 //    background-attachment: scroll;
-//    background-position: center center;
-      background-color: #3232CD;  
+//    background-position: center center; 
+    background-color: @blue-base;
     .background-cover;
     text-align: center;
     color: white;

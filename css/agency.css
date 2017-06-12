@@ -52,6 +52,9 @@ h6 {
 .bg-light-gray {
   background-color: #eeeeee;
 }
+.bg-blue-base {
+  background-color: #02558B;
+}
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -151,7 +154,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #fff;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -226,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-color: #3232CD;
+  background-color: #02558B;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
