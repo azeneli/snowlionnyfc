@@ -27,6 +27,6 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "agency.min.js"
   }
 }
