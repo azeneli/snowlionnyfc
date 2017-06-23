@@ -149,6 +149,9 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+#section-heading-teamroster {
+  color: #fff;
+}
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
@@ -284,6 +287,7 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: red;
 }
 section h3.section-subheading {
   font-size: 16px;
