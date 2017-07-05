@@ -232,7 +232,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-color: #02558B;
+  background-image: url('../img/logos/IMG_5491.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
