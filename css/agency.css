@@ -58,6 +58,15 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.intro-caption-team {
+  color: red;
+}
+.intro-caption-tibet {
+  color: green;
+}
+.intro-caption-snowlion {
+  color: white;
+}
 .btn-primary {
   color: white;
   background-color: #fed136;
