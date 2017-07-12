@@ -264,6 +264,14 @@ section {
     }
 }
 
+section#about {
+    background-color: #eee;
+}
+
+section#teamroster {
+    background-color: #fff;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -563,12 +571,12 @@ aside.clients {
 // Contact Section
 
 section#contact {
-    background-color: @gray-darker;
+    background-color: @gray-lighter;
 //    background-image: url('../img/map-image.png');
 //    background-position: center;
 //    background-repeat: no-repeat;
     .section-heading {
-        color: white;
+        color: @black-base;
     }
     .form-group {
         margin-bottom: 25px;
@@ -609,6 +617,9 @@ section#contact {
     }
     .text-danger {
         color: @theme-danger;
+    }
+    .form-control {
+        border: 1px solid @black-base !important;
     }
 }
 
