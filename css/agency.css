@@ -769,3 +769,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+.schedule-gcalendar {
+  width: 100%;
+}
